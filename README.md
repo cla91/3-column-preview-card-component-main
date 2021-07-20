@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobile-first-flexbox-and-desktop-fixed-width-6jaI_5hwp)
 - Live Site URL: [Add live site URL here](https://cla91.github.io/3-column-preview-card-component-main/)
 
 ## My process
