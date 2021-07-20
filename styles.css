@@ -1,0 +1,128 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 0.9375rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 88px 0;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  -ms-flex-preferred-size: 85%;
+      flex-basis: 85%;
+  max-width: 550px;
+}
+
+.section {
+  padding: 2.7rem;
+}
+
+.section-one {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.section-two {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.section-three {
+  background-color: hsl(179, 100%, 13%);
+}
+.section h1 {
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5rem;
+  color: hsl(0, 0%, 95%);
+  margin: 1rem 0;
+}
+.section a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  border-radius: 2rem;
+}
+.section a:link, .section a:visited {
+  background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
+  border: 2px solid hsl(0, 0%, 95%);
+  color: black;
+  mix-blend-mode: lighten;
+}
+
+.section a:hover, .section a:active {
+  text-decoration: none;
+  background-color: initial;
+  border: 2px solid hsl(0, 0%, 95%);
+  mix-blend-mode: normal;
+  color: hsl(0, 0%, 95%);
+}
+/*big screen*/
+@media only screen and (min-width: 1024px) {
+  .container {
+    height: 100vh;
+    position: relative;
+  }
+
+  .card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-radius: 10px;
+    overflow: hidden;
+    -ms-flex-preferred-size: initial;
+        flex-basis: initial;
+    max-width: 920px;
+    max-height: 500px;
+  }
+  .section a {
+    margin-top: 5rem;
+  }
+  footer {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    -webkit-transform: translate(-50%);
+        -ms-transform: translate(-50%);
+            transform: translate(-50%);
+  }
+}
